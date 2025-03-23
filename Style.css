@@ -1,0 +1,79 @@
+<link rel="stylesheet" href="style.css">
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h3 {
+    color: #34495e;
+}
+
+/* Box Style */
+.box {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #2c3e50;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Toggle Section */
+.toggle {
+    cursor: pointer;
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.toggle:hover {
+    background: #1a252f;
+}
+
+.content {
+    display: none;
+    padding: 10px;
+}
+
+/* Diagram Styling */
+.diagram {
+    font-family: monospace;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre;
+    overflow-x: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+    font-size: 14px;
+    border-radius: 0 0 8px 8px;
+  }
